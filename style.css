@@ -1,0 +1,29 @@
+div{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.buttons {
+    flex-wrap: wrap;
+     width: 210px;
+     height: 280px;
+ }
+.buttons button{
+    
+    width: 70px;
+    height: 70px;
+}
+.operations{
+    height: 42px;
+    width: 42px;
+    justify-content: center;
+}
+
+
+#big-container{
+    flex-direction: column;
+}
+.operations{
+    flex-direction: column;
+}
